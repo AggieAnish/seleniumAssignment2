@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.ValidLogin">
+        <methods>
+          <include name="login"/>
+          <include name="extendreportgenerate"/>
+          <include name="beforeTest"/>
+          <include name="closereport"/>
+          <include name="afterTest"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- testCases.ValidLogin -->
+      <class name="testCases.AddUnit">
+        <methods>
+          <include name="deleteBrand"/>
+          <include name="searchBrand"/>
+          <include name="searchUnit"/>
+          <include name="addUnit"/>
+          <include name="addBrand"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- testCases.AddUnit -->
+      <class name="testCases.AddProduct">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="deleteproduct"/>
+          <include name="searchProduct"/>
+          <include name="beforeClass"/>
+          <include name="addProduct"/>
+        </methods>
+      </class> <!-- testCases.AddProduct -->
+      <class name="testCases.LaunchBrowser">
+        <methods>
+          <include name="login"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testCases.LaunchBrowser -->
+      <class name="testCases.InvalidLogin">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testCases.InvalidLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

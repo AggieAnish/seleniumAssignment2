@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="login" />
+		</run>
+	</groups>
+	<test name="Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<parameter name="Url" value="https://qalegend.com/billing/public/login"></parameter>
+		<classes>
+			<class name="testCases.ValidLogin" />
+		<!--<class name="testCases.AddUnit" />			
+			<class name="testCases.AddProduct" />-->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
